@@ -9,26 +9,26 @@
     },
     "items": [
         {
-            "id": "https://Dream4873.github.io/clothes-dataset/images/Trousers/canvas/",
+            "id": "https://Dream4873.github.io/clothes-dataset/images/Sandal/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "Trousers"
+                    "Sandal"
                 ]
             },
-            "height": 275,
-            "width": 183,
+            "height": 625,
+            "width": 713,
             "items": [
                 {
-                    "id": "https://Dream4873.github.io/clothes-dataset/images/Trousers/annotation/AnnoPage",
+                    "id": "https://Dream4873.github.io/clothes-dataset/images/Sandal/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://Dream4873.github.io/clothes-dataset/images/Trousers/annotation/",
+                            "id": "https://Dream4873.github.io/clothes-dataset/images/Sandal/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://Dream4873.github.io/clothes-dataset/images/Trousers/full/full/0/default.jpg",
+                                "id": "https://Dream4873.github.io/clothes-dataset/images/Sandal/full/full/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -49,41 +49,41 @@
                                         "protocol": "http://iiif.io/api/image",
                                         "sizes": [
                                             {
-                                                "width": 6,
-                                                "height": 9
-                                            },
-                                            {
-                                                "width": 12,
-                                                "height": 18
-                                            },
-                                            {
                                                 "width": 23,
-                                                "height": 35
+                                                "height": 20
                                             },
                                             {
-                                                "width": 46,
-                                                "height": 69
+                                                "width": 45,
+                                                "height": 40
                                             },
                                             {
-                                                "width": 92,
-                                                "height": 138
+                                                "width": 90,
+                                                "height": 79
                                             },
                                             {
-                                                "width": 183,
-                                                "height": 275
+                                                "width": 179,
+                                                "height": 157
+                                            },
+                                            {
+                                                "width": 357,
+                                                "height": 313
+                                            },
+                                            {
+                                                "width": 713,
+                                                "height": 625
                                             }
                                         ],
                                         "profile": "http://iiif.io/api/image/2/level0.json",
-                                        "width": 183,
-                                        "@id": "https://Dream4873.github.io/clothes-dataset/images/Trousers",
+                                        "width": 713,
+                                        "@id": "https://Dream4873.github.io/clothes-dataset/images/Sandal",
                                         "@context": "http://iiif.io/api/image/2/context.json",
-                                        "height": 275,
+                                        "height": 625,
                                         "@type": "ImageService2"
                                     }
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://Dream4873.github.io/clothes-dataset/images/Trousers/canvas/"
+                            "target": "https://Dream4873.github.io/clothes-dataset/images/Sandal/canvas/"
                         }
                     ]
                 }
@@ -171,6 +171,87 @@
             ]
         },
         {
+            "id": "https://Dream4873.github.io/clothes-dataset/images/Trousers/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Trousers"
+                ]
+            },
+            "height": 275,
+            "width": 183,
+            "items": [
+                {
+                    "id": "https://Dream4873.github.io/clothes-dataset/images/Trousers/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Dream4873.github.io/clothes-dataset/images/Trousers/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Dream4873.github.io/clothes-dataset/images/Trousers/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 6,
+                                                "height": 9
+                                            },
+                                            {
+                                                "width": 12,
+                                                "height": 18
+                                            },
+                                            {
+                                                "width": 23,
+                                                "height": 35
+                                            },
+                                            {
+                                                "width": 46,
+                                                "height": 69
+                                            },
+                                            {
+                                                "width": 92,
+                                                "height": 138
+                                            },
+                                            {
+                                                "width": 183,
+                                                "height": 275
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 183,
+                                        "@id": "https://Dream4873.github.io/clothes-dataset/images/Trousers",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 275,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Dream4873.github.io/clothes-dataset/images/Trousers/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://Dream4873.github.io/clothes-dataset/images/Coat/canvas/",
             "type": "Canvas",
             "label": {
@@ -246,87 +327,6 @@
                                 "format": "image/jpeg"
                             },
                             "target": "https://Dream4873.github.io/clothes-dataset/images/Coat/canvas/"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://Dream4873.github.io/clothes-dataset/images/Sandal/canvas/",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Sandal"
-                ]
-            },
-            "height": 625,
-            "width": 713,
-            "items": [
-                {
-                    "id": "https://Dream4873.github.io/clothes-dataset/images/Sandal/annotation/AnnoPage",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "https://Dream4873.github.io/clothes-dataset/images/Sandal/annotation/",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://Dream4873.github.io/clothes-dataset/images/Sandal/full/full/0/default.jpg",
-                                "type": "Image",
-                                "service": [
-                                    {
-                                        "tiles": [
-                                            {
-                                                "scaleFactors": [
-                                                    32,
-                                                    16,
-                                                    8,
-                                                    4,
-                                                    2,
-                                                    1
-                                                ],
-                                                "width": 1024,
-                                                "height": 1024
-                                            }
-                                        ],
-                                        "protocol": "http://iiif.io/api/image",
-                                        "sizes": [
-                                            {
-                                                "width": 23,
-                                                "height": 20
-                                            },
-                                            {
-                                                "width": 45,
-                                                "height": 40
-                                            },
-                                            {
-                                                "width": 90,
-                                                "height": 79
-                                            },
-                                            {
-                                                "width": 179,
-                                                "height": 157
-                                            },
-                                            {
-                                                "width": 357,
-                                                "height": 313
-                                            },
-                                            {
-                                                "width": 713,
-                                                "height": 625
-                                            }
-                                        ],
-                                        "profile": "http://iiif.io/api/image/2/level0.json",
-                                        "width": 713,
-                                        "@id": "https://Dream4873.github.io/clothes-dataset/images/Sandal",
-                                        "@context": "http://iiif.io/api/image/2/context.json",
-                                        "height": 625,
-                                        "@type": "ImageService2"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://Dream4873.github.io/clothes-dataset/images/Sandal/canvas/"
                         }
                     ]
                 }
@@ -489,6 +489,87 @@
                                 "format": "image/jpeg"
                             },
                             "target": "https://Dream4873.github.io/clothes-dataset/images/Pullover/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://Dream4873.github.io/clothes-dataset/images/Sneaker/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Sneaker"
+                ]
+            },
+            "height": 500,
+            "width": 500,
+            "items": [
+                {
+                    "id": "https://Dream4873.github.io/clothes-dataset/images/Sneaker/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Dream4873.github.io/clothes-dataset/images/Sneaker/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Dream4873.github.io/clothes-dataset/images/Sneaker/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 16,
+                                                "height": 16
+                                            },
+                                            {
+                                                "width": 32,
+                                                "height": 32
+                                            },
+                                            {
+                                                "width": 63,
+                                                "height": 63
+                                            },
+                                            {
+                                                "width": 125,
+                                                "height": 125
+                                            },
+                                            {
+                                                "width": 250,
+                                                "height": 250
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 500
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 500,
+                                        "@id": "https://Dream4873.github.io/clothes-dataset/images/Sneaker",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 500,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Dream4873.github.io/clothes-dataset/images/Sneaker/canvas/"
                         }
                     ]
                 }
