@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 23,
+    "height" : 20
+  }, {
+    "width" : 45,
+    "height" : 40
+  }, {
+    "width" : 90,
+    "height" : 79
+  }, {
+    "width" : 179,
+    "height" : 157
+  }, {
+    "width" : 357,
+    "height" : 313
+  }, {
+    "width" : 713,
+    "height" : 625
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 713,
+  "@id" : "https://Dream4873.github.io/clothes-dataset/images/Sandal",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 625
+}
