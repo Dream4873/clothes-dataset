@@ -90,6 +90,87 @@
             ]
         },
         {
+            "id": "https://Dream4873.github.io/clothes-dataset/images/Ankle-boot/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Ankle-boot"
+                ]
+            },
+            "height": 600,
+            "width": 750,
+            "items": [
+                {
+                    "id": "https://Dream4873.github.io/clothes-dataset/images/Ankle-boot/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Dream4873.github.io/clothes-dataset/images/Ankle-boot/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Dream4873.github.io/clothes-dataset/images/Ankle-boot/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 24,
+                                                "height": 19
+                                            },
+                                            {
+                                                "width": 47,
+                                                "height": 38
+                                            },
+                                            {
+                                                "width": 94,
+                                                "height": 75
+                                            },
+                                            {
+                                                "width": 188,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 375,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 750,
+                                                "height": 600
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 750,
+                                        "@id": "https://Dream4873.github.io/clothes-dataset/images/Ankle-boot",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 600,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Dream4873.github.io/clothes-dataset/images/Ankle-boot/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://Dream4873.github.io/clothes-dataset/images/Shirt/canvas/",
             "type": "Canvas",
             "label": {
