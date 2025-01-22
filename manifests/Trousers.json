@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/clothes-dataset/manifests/Trousers.json",
+  "@type" : "sc:Manifest",
+  "label" : "Trouses",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Trousers",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Hooman",
+  "sequences" : [ {
+    "@id" : "http://2e498417-b548-4106-bea8-850a1b4d62c3",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ec1c9967-f785-420a-b19e-2b57f19c9a6d",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 275,
+      "width" : 183,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4c155cb7-ec72-4c60-a7ea-0dc09ed5b5c4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/clothes-dataset/images/Trousers/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/clothes-dataset/images/Trousers",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 275,
+          "width" : 183
+        },
+        "on" : "http://ec1c9967-f785-420a-b19e-2b57f19c9a6d"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
