@@ -25,5 +25,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Dream4873.github.io/clothes-dataset/manifests/Coat.json",
     "label" : "Coat"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Dream4873.github.io/clothes-dataset/manifests/Sandal.json",
+    "label" : "Sandal"
   } ]
 }
